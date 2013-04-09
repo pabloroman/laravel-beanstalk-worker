@@ -1,0 +1,6 @@
+Usage example:
+Pheanstalk::useTube( 'example-tube' )->put( serialize( array( 'data' => $data ) ) );
+
+Requires:
+https://github.com/mikelbring/Pheanstalk
+
